@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Ticket</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+	<div class="pesan">
+        <span>Welcome To</span>
+            <h1>Dufan Ancol</h1>
+    <details open="">
+        <summary>Menu</summary>
+            <table border="1">
+                <tbody><tr>
+                    <td bgcolor="blue">Ticket Mode</td>
+                    <td bgcolor="purple">Harga</td>
+                </tr>
+                <tr>
+                    <td>Regular Ticket Weekdays</td>
+                    <td>Rp. 250.000</td>
+                </tr>
+                <tr>
+                    <td>Regular Ticket Weekend</td>
+                    <td>Rp. 275.000</td>
+                </tr>
+                <tr>
+                    <td>Annual Pass</td>
+                    <td>Rp. 370.000</td>
+                </tr>
+                <tr>
+                    <td>Six Month Pass</td>
+                    <td>Rp. 335.000</td>
+                </tbody>
+            </table>
+    </details>
+    <h1>LAMAN PEMESANAN TIKET</h1>
+    <form name="form">
+        <label>Nama</label>
+        <input type="text" name="input_nama" size="10">
+        <br>
+        <label>Email</label>
+        <input type="text" name="input_email" size="10">
+        <br>
+        <label>No. Telepon</label>
+        <input type="text" name="input_telepon" size="10">
+        <br>
+        <label>Ticket Mode</label>
+            <select name="input_ticketmode">
+            <option value="Ticket">--Pilih--</option>
+            <option value="Regular Ticket Weekdays">Regular Ticket Weekdays</option>
+            <option value="Regular Ticket Weekend">Regular Ticket Weekend</option>
+            <option value="Annual Pass">Annual Pass</option>
+            <option value="Six Month Pass">Six Month Pass</option>
+            </select>
+        <label>Harga</label>
+        <select name="input_harga">
+            <option value="Harga">--Pilih--</option>
+            <option value="Rp. 250.000">Rp. 250.000</option>
+            <option value="Rp. 275.000">Rp. 275.000</option>
+            <option value="Rp. 370.000">Rp.370.000</option>
+            <option value="Rp. 335.000">Rp. 335.000</option>
+            </select>
+        <br>
+        <label>Jumlah Tiket</label>
+            <input type="text" name="input_jumlahtiket" size="10">
+        <br>
+    </form>
+        <button><a href="finish.html"> CHECK OUT </a></button>
+        <style>
+            form{line-height: 2em}
+            label, select, input{margin-left: 5px; width: 120px; display: block;float: left;line-height: 15px;}
+        </style>
+</body>
+</html>
